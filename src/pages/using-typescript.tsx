@@ -1,17 +1,15 @@
 // If you don't want to use TypeScript you can delete this file!
 import React from "react"
-import { PageProps, Link, graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { UsingTypescriptInterface } from "../@types/pages/using-typescript"
 
-type DataProps = {
-  site: {
-    buildTime: string
-  }
-}
-
-const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
+const UsingTypescript: React.FC<UsingTypescriptInterface> = ({
+  data,
+  path,
+}) => (
   <Layout>
     <SEO title="Using TypeScript" />
     <h1>Gatsby supports TypeScript by default!</h1>
