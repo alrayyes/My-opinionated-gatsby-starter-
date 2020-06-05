@@ -72,11 +72,11 @@ A quick look at the top-level files and directories you'll see.
 
 4.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-5.  **`.eslintrc.json`**: This is a [configuration file](https://eslint.org/docs/user-guide/configuring) for [ESLint](https://eslint.org/). Prettier is a tool to help keep the formatting of your code consistent.
+5.  **`.eslintrc.json` & `.eslintignore`**: These are [configuration files](https://eslint.org/docs/user-guide/configuring) for [ESLint](https://eslint.org/). ESLint is a tool to help keep the formatting of your code consistent.
 
 6.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-7.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+7.  **`.prettierrc` & `.prettierignore`**: These are configuration files for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
 8.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 

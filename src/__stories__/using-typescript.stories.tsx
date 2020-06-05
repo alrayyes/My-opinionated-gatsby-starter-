@@ -1,7 +1,7 @@
 import { storiesOf } from "@storybook/react"
 import React from "react"
-import UsingTypescript from "./using-typescript"
 import { UsingTypescriptDataInterface } from "../@types/pages/using-typescript"
+import UsingTypescript from "../pages/using-typescript"
 
 const data: UsingTypescriptDataInterface = {
   data: {
