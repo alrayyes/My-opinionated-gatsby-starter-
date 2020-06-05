@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "My Opinionated Gatsby Default Starter",
+    title: "My Opinionated Gatsby Starter",
     description:
       "Default Gatsby starter with a bunch of stuff that I like to use tacked on.",
     author: "@alrayyes",
