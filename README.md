@@ -4,6 +4,7 @@ Kick off your project with this opinionated boilerplate. This starter ships with
 
 ## Stuff I added
 
+- [Emotion](https://emotion.sh/)
 - [ESLint](https://eslint.org/)
 - [Husky](https://github.com/typicode/husky)
 - [Jest](https://jestjs.io/)
@@ -86,7 +87,7 @@ A quick look at the top-level files and directories you'll see.
 
 11. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-12. **`jest.config.js` & `jest-preprocess.js` & `loadershim.js`**: These are configuration files for [Jest](https://jestjs.io/).
+12. **`jest.config.js` & `jest-preprocess.js` & `loadershim.js` & `setup-test-env.js`**: These are configuration files for [Jest](https://jestjs.io/).
 
 13. **`LICENSE`**: Gatsby is licensed under the MIT license.
 
