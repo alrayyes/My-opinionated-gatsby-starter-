@@ -29,7 +29,6 @@ module.exports = {
         icon: "src/images/gatsby-icon.png", // This path is relative to the root of the site.
       },
     },
-    "gatsby-plugin-eslint",
     "gatsby-plugin-emotion",
     `gatsby-plugin-postcss`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

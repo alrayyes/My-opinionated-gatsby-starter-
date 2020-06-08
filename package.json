@@ -50,7 +50,6 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
     "gatsby-plugin-emotion": "^4.3.3",
-    "gatsby-plugin-eslint": "^2.0.8",
     "husky": ">=4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.0.1",

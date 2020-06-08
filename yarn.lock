@@ -8938,11 +8938,6 @@ gatsby-plugin-emotion@^4.3.3:
     "@babel/runtime" "^7.10.2"
     "@emotion/babel-preset-css-prop" "^10.0.27"
 
-gatsby-plugin-eslint@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-eslint/-/gatsby-plugin-eslint-2.0.8.tgz#1ff7f546a427d274dc2de3932ba29822aae330c3"
-  integrity sha512-vAMy37povmQJNg6ZxY78fkWR3pKwG8MNMhO3u+4vXj2MYT5avhFvHPJTAb126ZCuygf30gAWlpwbV50zP894Jw==
-
 gatsby-plugin-manifest@^2.4.5:
   version "2.4.10"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.10.tgz#e7576da8243e73d555905d186d685f5ce99a10cd"
