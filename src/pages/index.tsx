@@ -1,16 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import styled from "@emotion/styled"
+import tw from "twin.macro"
+import { Link } from "gatsby"
 
 const IndexPage: React.FC = () => {
   const ImageContainer = styled.div`
-    max-width: 300px;
-    margin-bottom: 1.45rem;
+    ${tw`max-w-xs mb-6 mt-4`}
   `
+
   return (
     <Layout>
       <SEO title="Home" />

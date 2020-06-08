@@ -1,0 +1,29 @@
+@tailwind base;
+
+div.layoutContainer {
+  @apply m-0 m-auto max-w-screen-md pt-6 pr-4;
+}
+
+div.headerContainer {
+  @apply m-0 m-auto max-w-screen-md pt-6 pr-4 pb-6;
+}
+
+a.headerLink {
+  @apply text-white no-underline text-4xl font-black;
+}
+
+a {
+  @apply font-bold text-blue-600 underline;
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+p {
+  @apply mt-6 text-xl;
+}
+
+footer {
+  @apply mt-8;
+}

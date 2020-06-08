@@ -9,8 +9,10 @@ Kick off your project with this opinionated boilerplate. This starter ships with
 - [Husky](https://github.com/typicode/husky)
 - [Jest](https://jestjs.io/)
 - [lint-staged](https://github.com/okonet/lint-staged)
+- [PostCss](https://postcss.org/)
 - [Prettier](https://prettier.io/)
 - [Storybook](https://storybook.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 _Have another more specific idea? You may want to check out the vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
@@ -63,6 +65,7 @@ A quick look at the top-level files and directories you'll see.
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
+    ├── postcss.config.js
     └── README.md
 
 1.  **`.storybook`**: This is a configuration directory for [Storybook](https://storybook.js.org/). Storybook is a UI development environment for your UI components.
@@ -93,11 +96,15 @@ A quick look at the top-level files and directories you'll see.
 
 14. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-15. **`README.md`**: A text file containing useful reference information about your project.
+15. **`postcss.config.js`**: This is the configuration file for [PostCSS](https://postcss.org/)
 
-16. **`tsconfig.json`**: This is a [configuration file](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for [TypeScript](https://www.typescriptlang.org/).
+16. **`README.md`**: A text file containing useful reference information about your project.
 
-17. **`yarn.lock`** (See `package.json` below, first). This is an [automatically generated file](https://classic.yarnpkg.com/en/docs/yarn-lock/) based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+17. **`tailwind.config.js`**: This is the configuration file for [Tailwind CSS](https://tailwindcss.com/)
+
+18. **`tsconfig.json`**: This is a [configuration file](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for [TypeScript](https://www.typescriptlang.org/).
+
+19. **`yarn.lock`** (See `package.json` below, first). This is an [automatically generated file](https://classic.yarnpkg.com/en/docs/yarn-lock/) based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
 ## 🎓 Learning Gatsby
 
