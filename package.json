@@ -90,7 +90,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsc && jest --coverage &&  lint-staged"
+      "pre-commit": "tsc && jest --coverage && lint-staged"
     }
   },
   "lint-staged": {
