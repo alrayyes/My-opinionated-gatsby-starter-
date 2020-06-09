@@ -106,7 +106,7 @@
       "<rootDir>/setup-test-env.js"
     ]
   },
-  "browserlist": [
+  "browserslist": [
     "defaults"
   ]
 }
