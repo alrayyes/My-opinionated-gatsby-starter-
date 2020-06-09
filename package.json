@@ -33,6 +33,7 @@
     "@types/react-test-renderer": "^16.9.2",
     "@typescript-eslint/eslint-plugin": "^3.1.0",
     "@typescript-eslint/parser": "^3.1.0",
+    "autoprefixer": "^9.8.0",
     "babel-jest": "^26.0.1",
     "babel-loader": "^8.1.0",
     "babel-plugin-emotion": "^10.0.33",
@@ -55,6 +56,7 @@
     "jest": "^26.0.1",
     "jest-emotion": "^10.0.32",
     "lint-staged": ">=10",
+    "precss": "^4.0.0",
     "prettier": "^2.0.5",
     "react-test-renderer": "^16.13.1",
     "tailwindcss": "^1.4.6",
@@ -103,5 +105,8 @@
     "setupFilesAfterEnv": [
       "<rootDir>/setup-test-env.js"
     ]
-  }
+  },
+  "browserlist": [
+    "defaults"
+  ]
 }
