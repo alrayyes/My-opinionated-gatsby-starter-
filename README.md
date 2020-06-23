@@ -1,4 +1,4 @@
-# [My opinionated Gatsby starter](https://my-opinionated-gatsby-starter.ryankes.eu/)
+# My opinionated Gatsby starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ea7b92e1-7878-4f24-8b94-97ac079fbafd/deploy-status)](https://app.netlify.com/sites/my-opinionated-gatsby-starter/deploys)
 [![<alrayyes>](https://circleci.com/gh/alrayyes/my-opinionated-gatsby-starter.svg?style=svg)](https://app.circleci.com/pipelines/github/alrayyes/my-opinionated-gatsby-starter)
