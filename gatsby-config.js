@@ -31,6 +31,14 @@ module.exports = {
     },
     "gatsby-plugin-emotion",
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-github-ribbon`,
+      options: {
+        project: `https://github.com/alrayyes/my-opinionated-gatsby-starter`,
+        color: `gray`, //`red`, `green`, `darkblue`, `orange`, `gray`, or `white`.
+        position: `right`, //`left` or `right`
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
