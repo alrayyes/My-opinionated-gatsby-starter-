@@ -1,18 +1,17 @@
-interface SEOMetaNameInterface {
-  name: string
-  content: string
-}
-
-interface SEOMetaPropertyInterface {
-  property: string
-  content: string
-}
-
 export interface SEOInterface {
+  title: string
   description?: string
   lang?: string
-  meta?: Array<SEOMetaNameInterface | SEOMetaPropertyInterface>
-  title: string
+  meta?: Array<
+    | {
+        property: string
+        content: string
+      }
+    | {
+        name: string
+        content: string
+      }
+  >
 }
 
 export interface SEODataInterface {
