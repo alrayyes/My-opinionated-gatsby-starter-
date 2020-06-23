@@ -13,6 +13,8 @@ jobs:
             - run: yarn test:coverage
             - store_artifacts:
                 path: coverage
+            - codecov/upload:
+                file: coverage/cobertura-coverage.xml
 workflows:
   build-and-test:
     jobs:
