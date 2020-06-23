@@ -12,8 +12,11 @@ jobs:
           steps:
             - run: yarn install
             - run: yarn test:coverage
+            - run: yarn build
             - store_artifacts:
                 path: coverage
+            - store_artifacts:
+                path: public
             - codecov/upload:
                 file: coverage/cobertura-coverage.xml
 workflows:
