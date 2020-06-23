@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "private": true,
   "description": "Opinionated gatsby starter with stuff I use",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Ryan Kes<alias+gatsbystarter@ryankes.eu>",
   "dependencies": {
     "@emotion/core": "^10.0.28",
